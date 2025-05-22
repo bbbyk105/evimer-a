@@ -6,7 +6,6 @@ const HeroSection = () => {
   return (
     <div>
       <div className="flex flex-col md:flex-row min-h-screen w-full">
-        {/* 左側: ロゴエリア (よりモダンなデザイン) */}
         <div className="w-full md:w-1/2 bg-[#111931] flex items-center justify-center p-8 relative overflow-hidden">
           <div
             className="relative z-10 max-w-md text-center"
@@ -24,7 +23,7 @@ const HeroSection = () => {
           </div>
         </div>
 
-        {/* 右側: コンテンツエリア (よりスタイリッシュに) */}
+        {/* 右側: コンテンツエリア*/}
         <div className="min-h-max md:w-1/2 bg-[#DDEF3F] p-8 md:p-12 flex flex-col">
           {/* メインコンテンツ */}
           <div className="flex-grow flex flex-col justify-center max-w-lg">
