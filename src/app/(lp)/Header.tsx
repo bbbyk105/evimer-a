@@ -40,6 +40,15 @@ const Header = () => {
           <ul className="flex items-center space-x-8 font-montserrat">
             <li>
               <Link
+                href="/"
+                className="relative text-sm font-medium hover:text-[#DDEF3F] transition-all duration-300 group"
+              >
+                ホーム
+                <span className="absolute -bottom-2 left-0 w-0 h-0.5 bg-[#DDEF3F] group-hover:w-full transition-all duration-300"></span>
+              </Link>
+            </li>
+            <li>
+              <Link
                 href="/#services"
                 className="relative text-sm font-medium hover:text-[#DDEF3F] transition-all duration-300 group"
               >
