@@ -97,7 +97,7 @@ const ServiceSection = () => {
                   className="relative h-64 w-full md:h-full"
                 >
                   <Image
-                    src="/images/portfolio.png"
+                    src="/images/website.webp"
                     alt="Webサイト制作サービス"
                     layout="fill"
                     objectFit="cover"
@@ -257,20 +257,6 @@ const ServiceSection = () => {
                 </div>
               </div>
             </div>
-          </div>
-
-          {/* サービス選択ガイド */}
-          <div className="mt-24 text-center" data-aos="fade-up">
-            <h3 className="mb-6 font-montserrat text-2xl font-bold text-[#111931]">
-              お客様に最適なサービスをご提案します
-            </h3>
-            <p className="mx-auto mb-8 max-w-2xl text-gray-600">
-              まずはお気軽にご相談ください。お客様のビジネスやニーズに合わせて、
-              最適なソリューションをご提案いたします。
-            </p>
-            <Button className="bg-[#DDEF3F] text-[#111931] hover:bg-[#c9da2e]">
-              お問い合わせ
-            </Button>
           </div>
         </div>
       </section>
